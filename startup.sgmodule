@@ -1,0 +1,27 @@
+#!name=开屏广告
+#!desc=京东系和威锋
+#!system=ios
+
+[URL Rewrite]
+# > 京东
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
+# > 京东金融
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/(new)?na\/m\/getLoadingPicture - reject
+# > 京东读书
+https://jdread-api.jd.com/jdread/api/channel/module/opens - reject
+https://jdread-api.jd.com/jdread/api/popup - reject
+# > 威锋
+^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) - reject
+
+[Script]
+# > 京东
+Jindong = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms),requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/jd_json.js
+# > 京喜
+jingxi = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/startup.js
+# > 京东Lite
+LITE1 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising,requires-body=1,script-path=https://raw.githubusercontent.com/iganymede/MrL/main/replace-body.js,argument=jdLiteAdvertisingVO->iganymede
+LITE2 = type=http-response,pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush,requires-body=1,script-path=https://raw.githubusercontent.com/iganymede/MrL/main/replace-body.js,argument=pushData->iganymede
+
+[MITM]
+hostname = %APPEND% api.m.jd.com,bdsp-x.jd.com,dsp-x.jd.com,ms.jr.jd.com,jdread-api.jd.com,jd.com,api.wfdata.club
