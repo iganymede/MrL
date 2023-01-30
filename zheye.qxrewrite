@@ -11,7 +11,7 @@
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2\? url reject-dict
 
 # 屏蔽我的页面开通会员的卡片
-# ^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject-dict
+^https?:\/\/api\.zhihu\.com\/unlimited\/go\/my_card url reject-dict
 
 # 拦截品牌提问广告
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
