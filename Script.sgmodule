@@ -3,8 +3,7 @@
 #!system=ios
 
 [Script]
-Timeblocks1 = type=http-response,pattern=^http:\/\/box\.gettimeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/MrL/master/TBS.js
-Timeblocks2 = type=http-response,pattern=^https:\/\/timeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/MrL/master/TBS.js
+Timeblocks = type=http-response,pattern=^https:\/\/*\.timeblocks\.com\/api,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/iganymede/MrL/master/TBS.js
 
 [MITM]
-hostname = %APPEND% timeblocks.com,box.gettimeblocks.com
+hostname = %APPEND% timeblocks.com
