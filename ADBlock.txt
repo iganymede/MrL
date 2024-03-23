@@ -195,7 +195,6 @@ hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com,
 ^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup url reject-200
 
 # 交管12123 //gab.122.gov.cn
-# hostname = gab.122.gov.cn
 ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
 ;^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
 
