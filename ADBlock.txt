@@ -1,7 +1,7 @@
 #!name = 自用app去广告合集
-#!desc = 去广告合集2024-03.23
+#!desc = 去广告合集2024-04.17
 
-hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, -i.vip.iqiyi.com, *.iqiyi.com, www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com, img*.douban.com, frodo.douban.com, erebor.douban.com, img.meituan.net, daoyu.sdo.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, douyucdn.cn, maicai.api.ddxq.mobi, gw.alicdn.com, img.alicdn.com, api.gamer.com.tw, res.xiaojukeji.com, common.diditaxi.com.cn, hd.xiaojukeji.com, freight.xiaojukeji.com, daijia.kuaidadi.com, ct.xiaojukeji.com, conf.diditaxi.com.cn, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, nr-op.elemecdn.com, cdn.wup.huya.com, business.msstatic.com, cdnfile1.msstatic.com, live-ads.huya.com, games.mobileapi.hupu.com, du.hupucdn.com, i*.hoopchina.com.cn, goblin.hupu.com, acs.m.taobao.com, acs-m.freshippo.com, m.360buyimg.com, api.m.jd.com, bdsp-x.jd.com, dsp-x.jd.com, ms.jr.jd.com, appconf.mail.163.com, support.you.163.com, jdread-api.jd.com, gab.122.gov.cn, p*.pstatp.com, res.kfc.com.cn, open-cms-api.uc.cn, open-cms-api.quark.cn, img.meituan.net, p*.meituan.net, s3plus.meituan.net, www.meituan.net, flowplus.meituan.net, wmapi.meituan.net, apimobile.meituan.net, apimobile.meituan.com, *.mgtv.com, *.cmvideo.cn, api.mcd.cn, iobs.pingan.com.cn, hcz-member.pingan.com.cn, cdn.sdb.com.cn, api.pinduoduo.com, api.yangkeduo.com, mobile.yangkeduo.com, pss.txffp.com, *.pipix.com, api-sams.walmartmobile.cn, otheve.beacon.qq.com, news.ssp.qq.com, sports3.gtimg.com, btrace.qq.com, api2.helper.qq.com, *.beacon.qq.com, mi.gdt.qq.com, lives.l.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, ssl.kohsocialapp.qq.com, qt.qq.com, 3gimg.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, api.wfdata.club, gw.alicdn.com, heic.alicdn.com, asp.cntv.myalicdn.com, api.m.mi.com, api.jr.mi.com, api-mifit.huami.com, home.mi.com, wallet.95516.com, acs.youku.com, push.m.youku.com, un-acs.youku.com, venus.yhd.com, mbs.boc.cn, mlife.jf365.boc.cn, client.app.coc.10086.cn, h.client.app.coc.10086.cn, hdgateway.zto.com, *.pstatp.com, amemv.com, musical.com, snssdk.com, tiktokv.com, dsp.toutiao.com, a.qiumibao.com, v.icbc.com.cn, ad.12306.cn, mobile.12306.cn
+hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com, guide-acs.m.taobao.com, poplayer.template.alibaba.com, -i.vip.iqiyi.com, *.iqiyi.com, www.baidu.com, fcvbjbcebos.baidu.com, cover.baidu.com, baichuan.baidu.com, api*.tuisong.baidu.com, afd.baidu.com, mobads.baidu.com, issuecdn.baidupcs.com, update.pan.baidu.com, sa*.tuisong.baidu.com, img*.douban.com, frodo.douban.com, erebor.douban.com, img.meituan.net, daoyu.sdo.com, rtbapi.douyucdn.cn, staticlive.douyucdn.cn, capi.douyucdn.cn, douyucdn.cn, maicai.api.ddxq.mobi, gw.alicdn.com, img.alicdn.com, api.gamer.com.tw, res.xiaojukeji.com, common.diditaxi.com.cn, hd.xiaojukeji.com, freight.xiaojukeji.com, daijia.kuaidadi.com, ct.xiaojukeji.com, conf.diditaxi.com.cn, elemecdn.com, fuss10.elemecdn.com, cube.elemecdn.com, www1.elecfans.com, nr-op.elemecdn.com, games.mobileapi.hupu.com, du.hupucdn.com, i*.hoopchina.com.cn, goblin.hupu.com, acs.m.taobao.com, acs-m.freshippo.com, m.360buyimg.com, api.m.jd.com, bdsp-x.jd.com, dsp-x.jd.com, ms.jr.jd.com, appconf.mail.163.com, support.you.163.com, gab.122.gov.cn, p*.pstatp.com, res.kfc.com.cn, open-cms-api.uc.cn, open-cms-api.quark.cn, img.meituan.net, p*.meituan.net, s3plus.meituan.net, www.meituan.net, flowplus.meituan.net, wmapi.meituan.net, apimobile.meituan.net, apimobile.meituan.com, *.mgtv.com, *.cmvideo.cn, api.mcd.cn, iobs.pingan.com.cn, hcz-member.pingan.com.cn, cdn.sdb.com.cn, api.pinduoduo.com, api.yangkeduo.com, mobile.yangkeduo.com, pss.txffp.com, *.pipix.com, api-sams.walmartmobile.cn, otheve.beacon.qq.com, news.ssp.qq.com, sports3.gtimg.com, btrace.qq.com, api2.helper.qq.com, *.beacon.qq.com, mi.gdt.qq.com, lives.l.qq.com, imgcache.qq.com, mtteve.beacon.qq.com, vv.video.qq.com, ssl.kohsocialapp.qq.com, qt.qq.com, 3gimg.qq.com, y.gtimg.cn, splashqqlive.gtimg.com, qzonestyle.gtimg.cn, discuz.gtimg.cn, bla.gtimg.com, mmgr.gtimg.com, bk.bingo.qq.com, mp.weixin.qq.com, weixin110.qq.com, security.wechat.com, api.wfdata.club, gw.alicdn.com, heic.alicdn.com, asp.cntv.myalicdn.com, api.m.mi.com, api.jr.mi.com, api-mifit.huami.com, home.mi.com, wallet.95516.com, acs.youku.com, push.m.youku.com, un-acs.youku.com, venus.yhd.com, mbs.boc.cn, mlife.jf365.boc.cn, client.app.coc.10086.cn, h.client.app.coc.10086.cn, hdgateway.zto.com, *.pstatp.com, amemv.com, musical.com, snssdk.com, tiktokv.com, dsp.toutiao.com, a.qiumibao.com, v.icbc.com.cn, ad.12306.cn, mobile.12306.cn
 
 # ======= A ======= #
 # 阿里云盘 //api.alipan.com, member.alipan.com
@@ -149,12 +149,6 @@ hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com,
 ^https?:\/\/(nr-op|cube)\.elemecdn\.com\/.+\.jpeg\?x-oss-process=image\/resize,m_fill,w_\d{4,},h_\d{4,}\/($|format,webp\/$) url reject
 
 # ======= H ======= #
-# 虎牙直播 //cdn.wup.huya.com, business.msstatic.com, cdnfile1.msstatic.com, live-ads.huya.com
-^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ url reject
-^https?:\/\/business\.msstatic\.com\/advertiser\/material url reject
-^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject-img
-^https?://live-ads\.huya\.com/live/getAllEntrance.*$ url reject-dict
-
 # 虎扑 //games.mobileapi.hupu.com, du.hupucdn.com, i*.hoopchina.com.cn, goblin.hupu.com
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ url reject
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
@@ -176,7 +170,6 @@ hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com,
 # ======= J ======= #
 # 京东 //api.m.jd.com
 ^http:\/\/\w{32}\.jddebug\.com\/diagnose\? url reject
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) url reject-dict
 
 # 京东极速版 //api.m.jd.com
@@ -190,13 +183,9 @@ hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com,
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ url reject
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json url reject
 
-# 京东读书 //jdread-api.jd.com
-^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/channel\/module\/opens url reject-200
-^https?:\/\/jdread-api\.jd\.com\/jdread\/api\/popup url reject-200
-
 # 交管12123 //gab.122.gov.cn
 ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
-;^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
+^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
 
 # 今日头条 //p*.pstatp.com
 ^https?:\/\/p\d\.pstatp.com\/origin url reject
@@ -435,7 +424,7 @@ hostname = api.alipan.com, member.alipan.com, acs.m.taobao.com, heic.alicdn.com,
 ^https?:\/\/hdgateway\.zto\.com\/listJumperShow url reject-dict
 
 # 字节跳动 //*.pstatp.com, amemv.com, musical.com, snssdk.com, tiktokv.com, dsp.toutiao.com
-;^https?:\/\/.+\.pstatp\.com\/img\/ad url reject-200
+^https?:\/\/.+\.pstatp\.com\/img\/ad url reject-200
 ^https?:\/\/.+\.(amemv|musical|snssdk|tiktokv)\.com\/(api|motor)\/ad\/ url reject-200
 ^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject-200
 ^https?:\/\/dsp\.toutiao\.com\/api\/xunfei\/ads\/ url reject-200
