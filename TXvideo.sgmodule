@@ -1,0 +1,28 @@
+#!name=腾讯视频
+#!desc=腾讯视频去广告
+#!category=独立规则
+
+[Rule]
+URL-REGEX,^https:\/\/ossgw\.alicdn\.com\/creatives-assets/prod/feupload/user,REJECT
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+OR,((DOMAIN,pgdt.gtimg.cn,extended-matching), (AND,((USER-AGENT,live4iphoneRel*), (IP-CIDR,0.0.0.0/0,no-resolve)))),REJECT-DROP
+DOMAIN,adsmind.gdtimg.com,REJECT,extended-matching
+DOMAIN,info4.video.qq.com,REJECT,extended-matching
+DOMAIN,info6.video.qq.com,REJECT,extended-matching
+DOMAIN,ios.video.mpush.qq.com,REJECT,extended-matching
+DOMAIN,otheve.beacon.qq.com,REJECT,extended-matching
+DOMAIN,tmead.y.qq.com,REJECT,extended-matching
+DOMAIN,tmeadbak.y.qq.com,REJECT,extended-matching
+DOMAIN,tmeadcomm.y.qq.com,REJECT,extended-matching
+DOMAIN,tpns.qq.com,REJECT,extended-matching
+DOMAIN-SUFFIX,gdt.qq.com,REJECT,extended-matching
+DOMAIN-SUFFIX,l.qq.com,REJECT,extended-matching
+DOMAIN-KEYWORD,trace.qq.com,REJECT,extended-matching
+DOMAIN-KEYWORD,trace.video.qq.com,REJECT,extended-matching
+URL-REGEX,^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+,REJECT
+URL-REGEX,^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+,REJECT
+URL-REGEX,^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+,REJECT
+URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind,REJECT
+
+[MITM]
+hostname = %APPEND% vv.video.qq.com,ossgw.alicdn.com
