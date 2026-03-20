@@ -8,7 +8,7 @@ http-response https://hub.kelee.one/list.json "loon://import\?plugin=(https://ke
 
 [Header Rewrite]
 # 清理缓存
-http-request https://pluginhub.kelee.one/list.json header-del if-none-match
+http-request https://hub.kelee.one/list.json header-del if-none-match
 
 [MITM]
 hostname = %APPEND% *hub.kelee.one
